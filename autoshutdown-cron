@@ -1,0 +1,2 @@
+@reboot root /home/ec2-user/.autoshutdown/writeboottime.sh
+*/10 * * * * root /home/ec2-user/.autoshutdown/stop-if-inactive.sh
